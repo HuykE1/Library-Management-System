@@ -169,7 +169,7 @@ def create_system():
          update_books(id, title, isbn, author, date, description, availability)
          add_to_treeview()
          clear()
-         messagebox.messageinfo('Success', 'Data has been updated')
+         messagebox.showinfo('Success', 'Data has been updated')
 
 
 
